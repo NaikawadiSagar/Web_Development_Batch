@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felx</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        header{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(255, 174, 0);
+            padding: 2rem;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        section{
+            display: flex;
+            justify-content: flex-end;
+            padding: 10px;
+            background-color: rgb(157, 77, 77);
+        }
+        section a{
+            padding: 10px;
+            margin: 10px;
+            font-size: 20px;
+            text-decoration: none;
+        }
+        section a:hover{
+            border-radius: 7px;
+            background-color: rgb(225, 25, 25);
+        }
+        main{
+            display: flex;
+            flex-direction: row;
+            /* width: 800px; */
+        }
+       main>div{
+            border: 2px solid red;
+            height: 250px;
+            width: 500px;
+            background-color: rgba(0, 255, 251, 0.399);
+        }
+        article{
+            display: flex;
+            border: 2px solid blue;
+            height: 310px;
+            padding: 10px;
+            background-color: gray;
+        }
+        article>div{
+            border: 2px solid black;
+            height: 400px;
+            width: 500px;
+            padding: 5px;
+            margin: 5px;
+        }
+        .main-div{
+            border: 2px solid pink;
+            height: 300px;
+            /* width: 100px; */
+        }
+        .main-div>div{
+            border: 2px solid green ;
+            justify-content: center;
+            height: 100px;
+            padding: 10px;
+            width: 420px;
+            margin: 10px;
+            background-color: rgb(82, 105, 82);
+        }
+        article>div{
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>Fork Infosystem</div>
+    </header>
+    <section>
+        <div><a href="#">Home</a></div>
+        <div><a href="#">ABout</a></div>
+        <div><a href="#">Contact Us</a></div>
+        <div><a href="#">Help</a></div>
+    </section>
+    <main>
+        <div></div>
+        <div class="Grow-Div"></div>
+        <div></div>
+    </main>
+    <article>
+        <div class="main-div">
+            <div></div>
+            <div></div>
+        </div>
+        <div class="main-div">
+          <div></div>
+          <div></div>            
+        </div>
+        <div class="main-div">
+            <div></div>
+            <div></div>
+        </div>
+    </article>
+</body>
+</html>
